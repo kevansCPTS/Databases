@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [PETZENT\cleiske]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+

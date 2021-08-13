@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblCorpReturnMaster] (
+    [PrimaryEIN]         INT           NOT NULL,
+    [CorpType]           TINYINT       NOT NULL,
+    [EntityName]         VARCHAR (101) NULL,
+    [SiteID]             VARCHAR (7)   NULL,
+    [PaidPreparerID]     VARCHAR (7)   NULL,
+    [EFIN]               VARCHAR (255) NULL,
+    [GUID]               VARCHAR (255) NULL,
+    [UserID]             INT           NOT NULL,
+    [SenderID]           INT           NULL,
+    [recTS]              DATETIME2 (0) CONSTRAINT [DF_tblCorpReturnMaster_recTS] DEFAULT (getdate()) NULL,
+    [ModifiedDate]       DATETIME2 (0) NULL,
+    [TransmitDate]       DATE          NULL,
+    [TransmitTime]       VARCHAR (19)  NULL,
+    [PrintFinal]         DATE          NULL,
+    [PrepFee]            INT           NULL,
+    [charge_subtotal1]   INT           NULL,
+    [discount_subtotal]  INT           NULL,
+    [charge_subtotal2]   INT           NULL,
+    [payment_subtotal]   INT           NULL,
+    [prior_year_balance] INT           NULL,
+    [net_invoice]        INT           NULL,
+    CONSTRAINT [PK_tblCorpReturnMaster] PRIMARY KEY CLUSTERED ([PrimaryEIN] ASC, [CorpType] ASC, [UserID] ASC)
+);
+

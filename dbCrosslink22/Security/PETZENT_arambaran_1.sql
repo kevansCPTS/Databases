@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [PETZENT\arambaran]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+

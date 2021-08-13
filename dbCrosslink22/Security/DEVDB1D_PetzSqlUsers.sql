@@ -1,0 +1,2 @@
+﻿CREATE USER [DEVDB1D\PetzSqlUsers];
+

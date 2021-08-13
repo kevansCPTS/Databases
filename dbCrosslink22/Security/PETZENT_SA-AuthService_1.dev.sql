@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [PETZENT\SA-AuthService.dev]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+

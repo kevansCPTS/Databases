@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [report]
+    WITH PASSWORD = N'nhmclm{LcfoW{sopxfwt|xkCmsFT7_&#$!~<gexQbSgson{g', SID = 0xB952BA5EC6E7E543B6383C38919C3CEA, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

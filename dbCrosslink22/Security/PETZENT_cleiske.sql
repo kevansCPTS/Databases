@@ -1,0 +1,2 @@
+﻿CREATE USER [PETZENT\cleiske] FOR LOGIN [PETZENT\cleiske];
+

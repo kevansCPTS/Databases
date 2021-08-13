@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[tblXlinkDiscounts] (
+    [discount_id]        INT            IDENTITY (1, 1) NOT FOR REPLICATION NOT NULL,
+    [account_id]         VARCHAR (8)    NOT NULL,
+    [discount_name_1]    VARCHAR (15)   NULL,
+    [discount_amount_1]  MONEY          NULL,
+    [discount_name_2]    VARCHAR (15)   NULL,
+    [discount_amount_2]  MONEY          NULL,
+    [discount_name_3]    VARCHAR (15)   NULL,
+    [discount_amount_3]  MONEY          NULL,
+    [discount_name_4]    VARCHAR (15)   NULL,
+    [discount_amount_4]  MONEY          NULL,
+    [discount_name_5]    VARCHAR (15)   NULL,
+    [discount_amount_5]  MONEY          NULL,
+    [schedule_id]        INT            NOT NULL,
+    [franchiseuser_id]   INT            NULL,
+    [discount_percent_1] DECIMAL (7, 2) NULL,
+    [discount_percent_2] DECIMAL (7, 2) NULL,
+    [discount_percent_3] DECIMAL (7, 2) NULL,
+    [discount_percent_4] DECIMAL (7, 2) NULL,
+    [discount_percent_5] DECIMAL (7, 2) NULL,
+    [discount_name_6]    VARCHAR (15)   NULL,
+    [discount_amount_6]  MONEY          NULL,
+    [discount_percent_6] DECIMAL (7, 2) NULL,
+    [override_fee]       MONEY          NULL,
+    CONSTRAINT [UN_tblXlinkDiscounts] PRIMARY KEY CLUSTERED ([discount_id] ASC)
+);
+

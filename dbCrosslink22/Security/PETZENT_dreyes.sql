@@ -1,0 +1,2 @@
+﻿CREATE USER [PETZENT\dreyes] FOR LOGIN [PETZENT\dreyes];
+

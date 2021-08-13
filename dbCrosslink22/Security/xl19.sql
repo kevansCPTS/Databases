@@ -1,0 +1,2 @@
+﻿CREATE USER [xl19] FOR LOGIN [xl19];
+

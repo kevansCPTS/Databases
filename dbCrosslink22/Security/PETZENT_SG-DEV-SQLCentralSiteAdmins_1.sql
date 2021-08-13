@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [PETZENT\SG-DEV-SQLCentralSiteAdmins]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+

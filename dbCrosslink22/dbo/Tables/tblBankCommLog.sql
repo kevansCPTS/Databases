@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblBankCommLog] (
+    [RowId]         INT          IDENTITY (1, 1) NOT FOR REPLICATION NOT NULL,
+    [BankId]        CHAR (1)     NOT NULL,
+    [BankAppId]     INT          NULL,
+    [UserId]        INT          NULL,
+    [MasterEfin]    INT          NULL,
+    [Efin]          INT          NULL,
+    [CompanyName]   VARCHAR (50) NULL,
+    [IsSB]          BIT          CONSTRAINT [DF_tblBankCommLog_IsSB] DEFAULT ((0)) NULL,
+    [IsMaster]      BIT          CONSTRAINT [DF_tblBankCommLog_IsMaster] DEFAULT ((0)) NULL,
+    [RecordTs]      DATETIME     CONSTRAINT [DF_tblBankCommLog_RecordTs] DEFAULT (getdate()) NOT NULL,
+    [RecordType]    VARCHAR (25) NULL,
+    [ToBank]        BIT          CONSTRAINT [DF_tblBankCommLog_ToBank] DEFAULT ((0)) NOT NULL,
+    [BankStatus]    VARCHAR (25) NULL,
+    [RTN]           CHAR (9)     NULL,
+    [DAN]           CHAR (17)    NULL,
+    [AccountType]   CHAR (1)     NULL,
+    [SBFee]         MONEY        NULL,
+    [DistributorId] INT          NULL,
+    [CompanyId]     INT          NULL,
+    [LocationId]    INT          NULL,
+    [SbId]          INT          NULL,
+    CONSTRAINT [PK_tblBankCommLog] PRIMARY KEY NONCLUSTERED ([RowId] ASC)
+);
+

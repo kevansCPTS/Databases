@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [PETZENT\SG-DEV-SQLTaxpayerMobileApp]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+

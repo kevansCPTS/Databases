@@ -1,0 +1,11 @@
+﻿CREATE ROLE [MStran_PAL_role]
+    AUTHORIZATION [dbo];
+
+
+GO
+ALTER ROLE [MStran_PAL_role] ADD MEMBER [MSReplPAL_91_1];
+
+
+GO
+ALTER ROLE [MStran_PAL_role] ADD MEMBER [MSReplPAL_52_1];
+

@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [taxman_csr]
+    WITH PASSWORD = N'Dynhmc0lm9{cctf#x4{RspxfmsFT7_&#$!~<w|xkeQbg2son', SID = 0x31EBC4BF5EA1AE49AE500CE4BCE81FCD, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

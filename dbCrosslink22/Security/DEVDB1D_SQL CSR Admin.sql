@@ -1,0 +1,2 @@
+﻿CREATE USER [DEVDB1D\SQL CSR Admin];
+

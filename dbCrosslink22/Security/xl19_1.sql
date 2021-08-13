@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [xl19]
+    WITH PASSWORD = N'=nhtmclm{cf{!s>pA|xfw|xkmsFT7_&#$!~<DeSb=bgsoln{', SID = 0xE6BD4B4B802636429195867AAD9461B1, DEFAULT_DATABASE = [dbCrosslink19], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+
